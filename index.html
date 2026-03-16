@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Machine Dreams - Erasmus+ Platform</title>
+    <meta name="description"
+        content="Descubre oportunidades Erasmus, explora destinos y comparte experiencias con la asociación Machine Dreams.">
+    <!-- Google Fonts: Inter -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <script src="https://unpkg.com/lucide@latest"></script>
+</head>
+
+<body>
+
+    <!-- Sticky Navigation -->
+    <header class="navbar">
+        <div class="container nav-container">
+            <a href="#" class="logo">
+                <i data-lucide="globe" class="logo-icon"></i>
+                <span>Machine Dreams</span>
+            </a>
+            <nav class="nav-links">
+                <a href="#destinos">Destinos</a>
+                <a href="#programas">Programas</a>
+                <a href="#experiencias">Experiencias</a>
+                <a href="#comunidad">Comunidad</a>
+            </nav>
+            <div class="nav-actions">
+                <!-- Redirige a la nueva página de login -->
+                <a href="login.html" class="btn btn-outline">Iniciar Sesión</a>
+                <!-- Redirige a la sección de registro en la misma página -->
+                <a href="registro.html" class="btn btn-primary">Regístrate</a>
+            </div>
+            <button class="menu-toggle" aria-label="Abrir menú">
+                <i data-lucide="menu"></i>
+            </button>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero">
+        <div class="hero-overlay"></div>
+        <div class="container hero-content">
+            <h1 class="animate-up">Tu Aventura Internacional Comienza Aquí</h1>
+            <p class="animate-up delay-1">Únete a cientos de estudiantes que ya han transformado su futuro con Machine
+                Dreams. Descubre los mejores programas Erasmus+ y expande tus horizontes.</p>
+            <div class="hero-buttons animate-up delay-2">
+                <a href="#destinos" class="btn btn-primary btn-lg">Explorar Destinos</a>
+                <a href="#programas" class="btn btn-secondary btn-lg">Ver Programas</a>
+            </div>
+
+            <div class="stats animate-up delay-3">
+                <div class="stat-item">
+                    <span class="stat-number">50+</span>
+                    <span class="stat-label">Destinos</span>
+                </div>
+                <div class="stat-item">
+                    <span class="stat-number">2000+</span>
+                    <span class="stat-label">Estudiantes</span>
+                </div>
+                <div class="stat-item">
+                    <span class="stat-number">100%</span>
+                    <span class="stat-label">Apoyo</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Destination Explorer -->
+    <section id="destinos" class="section bg-light">
+        <div class="container">
+            <div class="section-header text-center">
+                <h2>Descubre Tu Próximo Destino</h2>
+                <p>Explora la experiencia de voluntariado internacional que te cambiará la vida.</p>
+            </div>
+            <div class="destination-grid" style="display:flex; justify-content:center;">
+                <!-- Tarjeta Destino -->
+                <div class="destination-card"
+                    style="max-width:400px; border-radius:16px; box-shadow:0 10px 30px rgba(0,0,0,0.05); overflow:hidden;">
+                    <div class="card-img">
+                        <img src="C:\Users\HP\Downloads\turquia.html" alt="Mugle, Türkiye"
+                            style="width:100%; height:auto; display:block;">
+                        <div class="badge"
+                            style="position:absolute; top:12px; left:12px; background:#3b82f6; color:#fff; padding:6px 12px; border-radius:12px; font-size:0.85rem;">
+                            12 Meses</div>
+                    </div>
+                    <div class="card-content" style="padding:20px;">
+                        <h3>Mugle, Türkiye</h3>
+                        <p>European Solidarity Corps – Programa de 12 meses para jóvenes comprometidos con proyectos
+                            sociales y culturales en Turquía.</p>
+                        <a href="registro.html" class="btn btn-primary"
+                            style="display:inline-block; margin-top:10px;">Más información</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Testimonials Section -->
+    <section id="experiencias" class="section pattern-bg">
+        <div class="container">
+            <div class="section-header">
+                <h2>Historias Reales, Experiencias Únicas</h2>
+                <p>Nuestros estudiantes te cuentan por qué su Erasmus con Machine Dreams fue la mejor decisión de sus
+                    vidas.</p>
+            </div>
+            <div class="testimonial-grid">
+                <div class="testimonial-card">
+                    <div class="quote-icon"><i data-lucide="quote"></i></div>
+                    <p class="testimonial-text">"El equipo de Machine Dreams me ayudó en todo el proceso burocrático.
+                        Berlín fue increíble y las amistades que hice son para toda la vida."</p>
+                    <div class="testimonial-author">
+                        <img src="https://randomuser.me/api/portraits/women/44.jpg" alt="María García"
+                            class="author-img">
+                        <div class="author-info">
+                            <strong>María García</strong>
+                            <span>Ingeniería - Erasmus en Berlín</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="testimonial-card">
+                    <div class="quote-icon"><i data-lucide="quote"></i></div>
+                    <p class="testimonial-text">"Ir a Roma me abrió los ojos. La plataforma fue súper fácil de usar para
+                        encontrar mi piso y conocer a otros estudiantes antes de llegar."</p>
+                    <div class="testimonial-author">
+                        <img src="https://randomuser.me/api/portraits/men/32.jpg" alt="Carlos Ruiz" class="author-img">
+                        <div class="author-info">
+                            <strong>Carlos Ruiz</strong>
+                            <span>Derecho - Erasmus en Roma</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Call to Action Banner -->
+    <section class="cta-banner">
+        <div class="container cta-content text-center">
+            <h2>¿Listo para dar el gran salto?</h2>
+            <p>Abre tu mente, aprende un nuevo idioma y vive la experiencia europea al 100%.</p>
+            <a href="registro.html" class="btn btn-primary btn-lg mt-4">Crea tu cuenta ahora</a>
+        </div>
+    </section>
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container footer-grid">
+            <div class="footer-col brand-col">
+                <a href="#" class="logo footer-logo">
+                    <i data-lucide="globe"></i> Machine Dreams
+                </a>
+                <p>Conectando estudiantes con oportunidades internacionales para construir un futuro global.</p>
+                <div class="social-links">
+                    <a href="#"><i data-lucide="instagram"></i></a>
+                    <a href="#"><i data-lucide="twitter"></i></a>
+                    <a href="#"><i data-lucide="linkedin"></i></a>
+                </div>
+            </div>
+            <div class="footer-col">
+                <h4>Enlaces Rápidos</h4>
+                <ul>
+                    <li><a href="#destinos">Destinos</a></li>
+                    <li><a href="#programas">Programas y Becas</a></li>
+                    <li><a href="#experiencias">Experiencias de Alumnos</a></li>
+                    <li><a href="#">Preguntas Frecuentes (FAQ)</a></li>
+                </ul>
+            </div>
+            <div class="footer-col">
+                <h4>Legal</h4>
+                <ul>
+                    <li><a href="#">Términos y Condiciones</a></li>
+                    <li><a href="#">Política de Privacidad</a></li>
+                    <li><a href="#">Política de Cookies</a></li>
+                </ul>
+            </div>
+            <div class="footer-col">
+                <h4>Contacto</h4>
+                <p><i data-lucide="mail"></i> hola@machinedreams.eu</p>
+                <p><i data-lucide="phone"></i> +34 900 123 456</p>
+            </div>
+        </div>
+        <div class="footer-bottom text-center">
+            <p>&copy; 2026 Machine Dreams. Todos los derechos reservados.</p>
+        </div>
+    </footer>
+
+    <!-- Initialize scripts -->
+    <script src="main.js"></script>
+</body>
+
+</html>
